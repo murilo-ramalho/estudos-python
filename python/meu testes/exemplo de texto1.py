@@ -1,0 +1,6 @@
+nome= str(input ('digte seu nome completo: ')).strip()
+print ('seu nome em letras maiusculas: {}'.format (nome.upper()))
+print ('seu nome em letras minusculas: {}'.format (nome.lower()))
+print ('quantidade de caracteres no seu nome: {}'.format (len(nome) - nome.count(' ')))
+print ('quantidade de caracteres no primeiro nome: {}'.format (nome.find(' ')))
+input ()

@@ -1,0 +1,175 @@
+	comandos
+print (mostrar na tela)
+
+  str
+len (mostra a quantidade de caracteres)
+capitalize (transforma a primeira letra de str em maiusculo)
+count (mostra a quantidade de vezer que um caracter aparece)
+startswith (verifica se uma string inicia com uma determinada sequência)
+endswith (verifica se uma string termina com uma determinada sequência)
+
+  numero
+int (inteiro)
+long (n. longos)
+float (n. decimais)
+complex (n. complexos)
+
+ op. comparação
+< (menor que)
+<= (menor ou igual)
+> (maior que)
+>= (maior ou igual)
+== (igual)
+!= (diferente)
+
+not (não)
+and (e)
+or (ou)
+in (em)
+
+  is
+isalnum (Verifica se a string possui algum conteúdo alfanu-mérico (letra ou número))
+isalpha (Verifica se a string possui apenas conteúdo alfabéti-co)
+islower (Verifica se todas as letras de uma string são minús-culas)
+isupper (Verifica se todas as letras de uma string são maiús-culas)
+
+lower (transforma a str em apenas letras minusculas)
+upper (transforma a str em apenas letras maiusculas)
+swapcase (inverte apenas letras maiussulas/minusculas da str)
+title (Converte para maiúsculo todas as primeiras letras de cada palavra da string)
+'-'.join (jutar elementos separados em uma frase)
+split (transforma a str em uma lista separada em palavras)
+replace (x, y) (troca de str)
+find (mostra em qual posição numerica de um caractere)
+rfind (mostra em qual posição numerica de um caractere começando pelo lado direito)
+ljust (spaço do lado direito)
+rjust (spaço do lado esquerdo)
+center (centraliza com espacos dos dois lados)
+lstrip (remove os espaços do lado direito)
+rstrip (remove os espacos do lado esquerdo)
+strip (remove os espaços em branco)
+[x:y] (seleciona os caracteres)
+
+
+input (recebe do print)
++ ou , (acrecenta)
+'' (frase)
+{} e .format (mostra no colchetes)
+\n (quebra de linha)
+end='' (juntar as linhas dos prints)
+# (comentario)
+import (importar de fora)
+from "" import "" (importar algo especifico de fora)
+
+	decisão
+if (se)
+i..else (s..nao)
+if..elif..else (se..senao..senao..se)
+
+  lista
+[] (lista)
+len (quantidade caractere da lista)
+min (mostra o menor valor da lista)
+max (mostra o maior valor da lista)
+sum (soma dos elementos da lista)
+append (adiciona um valor no final da lista)
+extend (adiciona uma lista numa lista)
+del (remove um elemento da lista)
+in (verificar se um valor pertence a lista)
+sort (ordena em ordem cresente)
+reverse (inverte os elementos da lista)
+[x:y] (corta elemestos da lista)
+range (adiciona um limite de elementos)
+tupla () (uma lista q n tem alteração)
+
+
+	modulos
+math (funções matematicas)
+tkinter (interface grafica padrão)
+smtplib (e-mail)
+time (funções de tempo)
+urllib (leitor de rss para uso na internet)
+numpy (funções matematicas mais avançadas)
+PIL/Pillow (manipulação de img)
+
+  math
+ceil (arredondar pra +)
+floor (tranforma um numero real em inteiro)
+trunc
+pow (potencião)
+sqrt (raiz quadrada)
+factorial
+hypot (calculo da hipotenuza)
+cos (calculo do cosseno)
+sin (calculo do seno)
+tan (calculo da tangente)
+radians (conversor de graus para radiano)
+pi (pi 3,14)
+
+  
+  random
+
+random (numero aleatorio entre 0 e 1)
+randint (numero aleatorio comlimitação)
+choice (escolha detro da lista)
+shuffle (embaralhar listas)
+randrange
+
+  pygame
+mixer (audio)
+
+	tipos primitivos
+int (inteiro)
+float (número com ,)
+bool (boleano)
+str (palavra)
+
+
+
+	aritimetica
++ (mais)
+- (menos)
+* (vezes)
+/ (dividir)
+** (potencia)
+// (divisão inteira)
+% (mod=resto da divisão)
+**(1/2 ou +) (raiz quadrada, etc)
+
+
+
+	hierarquia aritimetica
+1 ()
+2 **
+3 *, /, //, %
+4 +, -
+
+  cor
+style 
+0 (nenhum estilo)
+1 (negrito)
+4 (sublinhado)
+7 (inverter)
+
+tex (cor do texto)
+30 (sem cor)
+31 (vermelho)
+32 (verde)
+33 (amarelo)
+34 (azul)
+35 (roxo)
+36 (azul claro)
+37 (cinza)
+
+back (cor do fundo)
+40 (sem cor)
+41 (vermelho)
+42 (verde)
+43 (amarelo)
+44 (azul)
+45 (roxo)
+46 (azul claro)
+47 (cinza)
+
+outro
+str*A (replicar a palavra)

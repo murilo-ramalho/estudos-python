@@ -1,0 +1,16 @@
+from time import sleep
+print ('{}exercicio 1{}'.format ('-='*15, '-='*15))
+print (' Esse program foi feito para saber o número digitado;')
+print ()
+print ('-='*35)
+print ()
+a = int(input(' Digite um número aleatório: '))
+print ()
+print (' processando...')  #quis deixar mais bonito ¯\_(ツ)_/¯
+sleep (2)
+print ()
+print ('{}Esses são os dados;{}'.format ('-='*10, '-='*14))
+print ()
+print (' O valor informado foi {};'.format (a))
+print ('-='*33)
+input () #coloquei esse input livre para não finalizar quando for rodar (estou usando o notepad++)

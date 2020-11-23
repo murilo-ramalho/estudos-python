@@ -1,0 +1,16 @@
+from time import sleep
+print ('{}exercicio 4{}'.format ('-='*15, '-='*15))
+print (' Esse program foi feito para converter metro para centimetros;')
+print ()
+print ('-='*35)
+print ()
+a = int (input(' Digite um tamanho em metros: '))
+print ()
+print (' processando...')  #quis deixar mais bonito ¯\_(ツ)_/¯
+sleep (2)
+print ()
+print ('{}Esses são os dados;{}'.format ('-='*10, '-='*14))
+print ()
+print (' O tamanho de {}m tem {} centimetros;'.format (a, a*100))
+print ('-='*33)
+input () #coloquei esse input livre para não finalizar quando for rodar (estou usando o notepad++)

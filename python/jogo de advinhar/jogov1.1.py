@@ -1,0 +1,25 @@
+from random import randrange
+from time import sleep
+a = randrange(5)
+print ('~~'*55)
+print ('{}o jogo é acertar o número que o computador escolher!, tente acertar!'.format (' '*10))
+print ('~~'*55)
+print ('{}Você terá 3 chances de acertar!!, quem acertar mais ganha!!'.format (' '*10))
+print ('~~'*55)
+print ()
+b = int ( input (' digite um valor entre 0 e 5: '))
+if b>5:
+    print ()
+    print (' Número escolido é ivalido no jogo!!!')
+    print ()
+else:
+    print ()
+    print ('{}carregando...'.format (' '*5))
+    sleep(2)
+    print ()
+    print ('{}Resultado{}'.format ('-='*10, '-='*18))
+    print ()
+    print (' Parabens voçê acertou!!' if b==a  else ' tente novamente voçê errou!!')
+    print ()
+    print ('-='*33)
+input ()

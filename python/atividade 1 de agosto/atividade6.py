@@ -1,0 +1,17 @@
+from time import sleep
+print ('{}exercicio 6{}'.format ('-='*15, '-='*15))
+print (' Esse program foi feito para saber o dobro da área;')
+print ()
+print ('-='*35)
+print ()
+a = float (input(' Digite a altura: '))
+b = float (input(' Digite a largura: '))
+print ()
+print (' processando...')  #quis deixar mais bonito ¯\_(ツ)_/¯
+sleep (2)
+print ()
+print ('{}Esses são os dados;{}'.format ('-='*10, '-='*14))
+print ()
+print (' O dobro da área é {};'.format((a*b)*2))
+print ('-='*33)
+input () #coloquei esse input livre para não finalizar quando for rodar (estou usando o notepad++)

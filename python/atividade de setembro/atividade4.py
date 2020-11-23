@@ -1,0 +1,15 @@
+from time import sleep
+print ('{}exercicio 8{}'.format ('-='*15, '-='*15))
+print ('Esse programa foi feito para calcular a velocidade de um download!')
+print ()
+a= float (input('digite o tamanho do a arquivo a ser baixado: '))
+v= float (input('digite a velocidade da sua internet em mbps: '))
+print ()
+print ('processando...')
+sleep(2)
+print ()
+print ('{}resultado dos dados;{}'.format ('-='*10, '-='*18)) #quis deixar mais bonito ¯\_(ツ)_/¯
+print ()
+print ('O tempo levará {:.2f}m de demora'.format ((a/v)/60))
+print ('-='*33)
+input () #coloquei esse input livre para não finalizar quando for rodar (estou usando o notepad++)

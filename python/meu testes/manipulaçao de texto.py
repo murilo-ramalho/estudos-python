@@ -1,0 +1,40 @@
+a= str ( input ('Digite uma palavra(s): ')).strip()
+print ()
+print ('Todo sobre manipulação de texto ou str')
+print ()
+print ('Caracter é apenas maiusculo: {}'.format (a.isupper()))   # isupper
+print ('~~'*40)
+print ('Caracter é apenas minsculo: {}'.format (a.islower()))    # islower
+print ('~~'*40)
+print ('Caracter é captalizado: {}'.format (a.istitle()))    # istitle
+print ('~~'*40)
+print ('Caracter com apenas espaços: {}'.format (a.isspace()))   # isspace
+print ('~~'*40) 
+print ('Caracter com apenas número: {}'.format (a.isnumeric()))     # isnumeric
+print ('~~'*40)
+print ('Caracter apenas alfabético: {}'.format (a.isalpha()))   # isalpha
+print ('~~'*40)
+print ('Caracter alfanumerico: {}'.format (a.isalnum()))    # isalnum
+print ('~~'*40)
+print ('Quantidade de caracteres: {}'.format (len (a) - a.count(' ')))     # len ()
+print ('~~'*40)
+print ('quantidade de caracteres na primeira palavra: {}'.format (len(a)- a.count(' ')- a.find ('')))
+print ('~~'*40)
+print ('Caracteres apenas minusculo: {}'.format (a.lower ()))   # str.lower()
+print ('~~'*40)
+print ('Caracteres apenas maiusculo: {}'.format (a.upper ()))   # str.upper()
+print ('~~'*40)
+print ('Caracter com a primeira letra maiuscula: {}'.format (a.capitalize())) # str.capitalize()
+print ('~~'*40)
+print ('Caracter invetirdo (em questão de maiusculo/minusculo): {}'.format (a.swapcase ())) # str.swapcase()
+print ('~~'*40)
+print ('Quantidade de vezes q aparece b : {}'.format (a.count('b')))    # str.count('')
+print ('~~'*40)
+print ('Caracter se inicia com Py: {}'.format (a.startswith ('Py')))    # str.startswith('')
+print ('~~'*40)
+print ('Caracter termina com z: {}'.format (a.endswith ('z')))   # str.endswith('')
+print ('~~'*40)
+b= a.split () # str.split ()
+print ('Caracter como lista: {}'.format (b)) # str.split ()
+print ()
+input ('aperte enter para sair.')

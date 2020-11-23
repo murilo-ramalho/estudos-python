@@ -1,0 +1,15 @@
+from time import sleep
+print ('{}exercicio 6{}'.format ('-='*15, '-='*15))
+print ('Olá, esse é um programa feito para saber a quntidade de latas de tinta para sua pintura!!')
+print ()
+m= float (input('Digite a quantidade de metros quadrados a serem pintados: ')) 
+print ()
+print('processando...')
+sleep (2)
+print ()
+print ('{}Esses são os dados;{}'.format ('-='*10, '-='*18)) #quis deixar mais bonito ¯\_(ツ)_/¯
+print ()
+print ('Você usara {:.0f} latas de tinta para pintar {}m²'.format ((m/3)/18, m))
+print ('O preco total é de: R${:.2f}'.format (((m/3)/18)*80.0))
+print ('-='*33)
+input () #coloquei esse input livre para não finalizar quando for rodar (estou usando o notepad++)
