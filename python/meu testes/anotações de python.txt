@@ -173,3 +173,4 @@ back (cor do fundo)
 
 outro
 str*A (replicar a palavra)
+end='' (n deixa quebrar a linha)
