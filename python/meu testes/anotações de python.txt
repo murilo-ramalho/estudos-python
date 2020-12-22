@@ -25,7 +25,7 @@ complex (n. complexos)
 not (não)
 and (e)
 or (ou)
-in (em)
+in (em(dentro))
 
   is
 isalnum (Verifica se a string possui algum conteúdo alfanu-mérico (letra ou número))
@@ -55,7 +55,8 @@ input (recebe do print)
 + ou , (acrecenta)
 '' (frase)
 {} e .format (mostra no colchetes)
-\n (quebra de linha)
+\n (quebra de linha, só funciona dentro dos '')
+se for usar fora usa-se end='\n'
 end='' (juntar as linhas dos prints)
 # (comentario)
 import (importar de fora)
