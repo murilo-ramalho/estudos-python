@@ -2,6 +2,7 @@ from qiskit import QuantumCircuit
 from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram
 
+#cria o circuito de qubits
 qc = QuantumCircuit(1, 1)
 qc.h(0)
 
@@ -15,4 +16,6 @@ result = job.result()
 
 # Obter e exibir os resultados
 counts = result.get_counts(qc)
-print("Resultados:", counts)
+print("Hello World quâtico!\nresultados do balanço quântico dos qubits:", counts)
+
+# o balanço é feito de não é exato, pois é uma aproximação probabilistica, caso queria algo mais preciso aumente os shots
