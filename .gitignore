@@ -1,1 +1,40 @@
-.venv/
+# Nuitka build output
+build/
+dist/
+__compiled__
+*.build
+*.o
+*.c
+*.cpp
+*.exe
+*.bin
+*.manifest
+*.exp
+*.lib
+*.pyd
+*.ilk
+*.obj
+*.idb
+*.nuitka-cache
+
+# Nuitka temporary files
+.nuitka-cache/
+*.const
+*.module*
+*.static
+*.resource
+*.helper
+*.hash
+*.onefile*
+
+# Python standard ignores
+__pycache__/
+*.py[cod]
+*.pyi
+*.pyo
+*.log
+
+# Optional: ignore virtual environments
+venv/
+env/
+.env/
