@@ -43,16 +43,7 @@ def gerar_nome(hash_bin: str, num_silabas: int, usar_acentos: bool) -> str:
 
 def aplicar_hash(entrada: str, algoritmo: str = "blake3") -> str:
     entrada_bytes = entrada.encode()
-    if algoritmo == "sha256":
-        h = hashlib.sha256(entrada_bytes).hexdigest()
-    elif algoritmo == "md5":
-        h = hashlib.md5(entrada_bytes).hexdigest()
-    elif algoritmo == "blake2b":
-        h = hashlib.blake2b(entrada_bytes, digest_size=32).hexdigest()
-    elif algoritmo == "blake3":
-        h = blake3.blake3(entrada_bytes).hexdigest()
-    else:
-        raise ValueError("Algoritmo de hash não suportado")
+    h = blake3.blake3(entrada_bytes).hexdigest()
     return bin(int(h, 16))[2:].zfill(len(h) * 4)
 
 def gerar_salt(tamanho=8):
