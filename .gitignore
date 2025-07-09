@@ -16,6 +16,7 @@ __compiled__
 *.obj
 *.idb
 *.nuitka-cache
+*.dll
 
 # Nuitka temporary files
 .nuitka-cache/
@@ -38,3 +39,4 @@ __pycache__/
 venv/
 env/
 .env/
+.venv/
