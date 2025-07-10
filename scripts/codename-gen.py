@@ -43,7 +43,8 @@ def gerar_nome(hash_bin: str, num_silabas: int, usar_acentos: bool) -> str:
 
 def aplicar_hash(entrada: str, algoritmo: str = "blake3") -> str:
     entrada_bytes = entrada.encode()
-    h = blake3.blake3(entrada_bytes).hexdigest()
+    """h = blake3.blake3(entrada_bytes).hexdigest()"""
+    h = hashlib.sha256(entrada_bytes).hexdigest()
     return bin(int(h, 16))[2:].zfill(len(h) * 4)
 
 def gerar_salt(tamanho=8):
