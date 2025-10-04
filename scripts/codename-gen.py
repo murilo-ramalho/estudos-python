@@ -51,8 +51,8 @@ def gerar_salt(tamanho=8):
     return ''.join(random.choices(string.ascii_letters + string.digits, k=tamanho))
 
 def gerar_nomes(input_base: str, num_silabas: int, rodadas: int = 10, algoritmo: str = "blake3", usar_acentos=True):
-    if not (2 <= num_silabas <= 7):
-        raise ValueError("Número de sílabas deve estar entre 2 e 7.")
+    if not (1 <= num_silabas <= 7):
+        raise ValueError("Número de sílabas deve estar entre 1 e 7.")
 
     nomes = []
     for _ in range(rodadas):
@@ -65,9 +65,9 @@ def gerar_nomes(input_base: str, num_silabas: int, rodadas: int = 10, algoritmo:
 
 # CLI
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="🔤 Gerador de Nomes Fonéticos Universais")
+    parser = argparse.ArgumentParser(description="Gerador de Nomes Fonéticos Universais")
     parser.add_argument("--entrada", "-e", required=True, help="Texto base para gerar os nomes")
-    parser.add_argument("--silabas", "-s", type=int, required=True, help="Número de sílabas (2–7)")
+    parser.add_argument("--silabas", "-s", type=int, required=True, help="Número de sílabas (1–7)")
     parser.add_argument("--sem-acento", "-na", action="store_true", help="Remover acentos das vogais nas sílabas")
 
     args = parser.parse_args()
