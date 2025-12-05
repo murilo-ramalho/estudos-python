@@ -28,6 +28,9 @@ __compiled__
 *.hash
 *.onefile*
 
+# pyinstaller
+*.spec
+
 # Python standard ignores
 __pycache__/
 *.py[cod]
